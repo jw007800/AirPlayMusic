@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A2440EA1744BBE800D07268 /* FullScreenARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2440E81744BBE800D07268 /* FullScreenARViewController.m */; };
+		9A2440EB1744BBE800D07268 /* FullScreenARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A2440E91744BBE800D07268 /* FullScreenARViewController.xib */; };
+		9A2440EE1744C11000D07268 /* closeios.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A2440EC1744C11000D07268 /* closeios.png */; };
+		9A2440EF1744C11000D07268 /* closeios@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A2440ED1744C11000D07268 /* closeios@2x.png */; };
+		9AB1B8181744981B0029B6CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB1B8171744981B0029B6CB /* UIKit.framework */; };
+		9AB1B81A1744981B0029B6CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB1B8191744981B0029B6CB /* Foundation.framework */; };
+		9AB1B81C1744981B0029B6CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB1B81B1744981B0029B6CB /* CoreGraphics.framework */; };
+		9AB1B8221744981B0029B6CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B8201744981B0029B6CB /* InfoPlist.strings */; };
+		9AB1B8241744981B0029B6CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1B8231744981B0029B6CB /* main.m */; };
+		9AB1B8281744981B0029B6CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1B8271744981B0029B6CB /* AppDelegate.m */; };
+		9AB1B8311744981C0029B6CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1B8301744981C0029B6CB /* ViewController.m */; };
+		9AB1B8341744981C0029B6CB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B8321744981C0029B6CB /* ViewController.xib */; };
+		9AB1B83B1744983C0029B6CB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB1B83A1744983C0029B6CB /* CoreData.framework */; };
+		9AB1B83D174498410029B6CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB1B83C174498410029B6CB /* QuartzCore.framework */; };
+		9AB1B83F174498480029B6CB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB1B83E174498480029B6CB /* MapKit.framework */; };
+		9AB1B8411744984D0029B6CB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB1B8401744984D0029B6CB /* CoreLocation.framework */; };
+		9AB1B84F17449AA10029B6CB /* ARCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1B84417449AA10029B6CB /* ARCoordinate.m */; };
+		9AB1B85017449AA10029B6CB /* ARGeoCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1B84617449AA10029B6CB /* ARGeoCoordinate.m */; };
+		9AB1B85117449AA10029B6CB /* ARKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1B84817449AA10029B6CB /* ARKit.m */; };
+		9AB1B85217449AA10029B6CB /* AugmentedRealityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1B84C17449AA10029B6CB /* AugmentedRealityController.m */; };
+		9AB1B85317449AA10029B6CB /* GEOLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1B84E17449AA10029B6CB /* GEOLocations.m */; };
+		9AB1B85517449AC40029B6CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB1B85417449AC40029B6CB /* AVFoundation.framework */; };
+		9AB1B85E17449B820029B6CB /* BgImgShutter.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B85817449B820029B6CB /* BgImgShutter.png */; };
+		9AB1B85F17449B820029B6CB /* BgImgShutter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B85917449B820029B6CB /* BgImgShutter@2x.png */; };
+		9AB1B86017449B820029B6CB /* BgImgShutterRotate.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B85A17449B820029B6CB /* BgImgShutterRotate.png */; };
+		9AB1B86117449B820029B6CB /* BgImgShutterRotate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B85B17449B820029B6CB /* BgImgShutterRotate@2x.png */; };
+		9AB1B86217449B820029B6CB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B85C17449B820029B6CB /* Default.png */; };
+		9AB1B86317449B820029B6CB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B85D17449B820029B6CB /* Default@2x.png */; };
+		9AB1B87017449DF00029B6CB /* menuSkyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B86417449DF00029B6CB /* menuSkyButton.png */; };
+		9AB1B87117449DF00029B6CB /* menuSkyButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B86517449DF00029B6CB /* menuSkyButton@2x.png */; };
+		9AB1B87217449DF00029B6CB /* playios.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B86617449DF00029B6CB /* playios.png */; };
+		9AB1B87317449DF00029B6CB /* playios@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B86717449DF00029B6CB /* playios@2x.png */; };
+		9AB1B87417449DF00029B6CB /* playlistios.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B86817449DF00029B6CB /* playlistios.png */; };
+		9AB1B87517449DF00029B6CB /* playlistios@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B86917449DF00029B6CB /* playlistios@2x.png */; };
+		9AB1B87617449DF00029B6CB /* settingsios.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B86A17449DF00029B6CB /* settingsios.png */; };
+		9AB1B87717449DF00029B6CB /* settingsios@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B86B17449DF00029B6CB /* settingsios@2x.png */; };
+		9AB1B87817449DF00029B6CB /* songTargetios.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B86C17449DF00029B6CB /* songTargetios.png */; };
+		9AB1B87917449DF00029B6CB /* songTargetios@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B86D17449DF00029B6CB /* songTargetios@2x.png */; };
+		9AB1B87A17449DF00029B6CB /* totheskyios.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B86E17449DF00029B6CB /* totheskyios.png */; };
+		9AB1B87B17449DF00029B6CB /* totheskyios@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB1B86F17449DF00029B6CB /* totheskyios@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A2440E71744BBE800D07268 /* FullScreenARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScreenARViewController.h; sourceTree = "<group>"; };
+		9A2440E81744BBE800D07268 /* FullScreenARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScreenARViewController.m; sourceTree = "<group>"; };
+		9A2440E91744BBE800D07268 /* FullScreenARViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FullScreenARViewController.xib; sourceTree = "<group>"; };
+		9A2440EC1744C11000D07268 /* closeios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeios.png; sourceTree = "<group>"; };
+		9A2440ED1744C11000D07268 /* closeios@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closeios@2x.png"; sourceTree = "<group>"; };
+		9AB1B8141744981B0029B6CB /* AirPlayMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPlayMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB1B8171744981B0029B6CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9AB1B8191744981B0029B6CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9AB1B81B1744981B0029B6CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9AB1B81F1744981B0029B6CB /* AirPlayMusic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirPlayMusic-Info.plist"; sourceTree = "<group>"; };
+		9AB1B8211744981B0029B6CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AB1B8231744981B0029B6CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AB1B8251744981B0029B6CB /* AirPlayMusic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirPlayMusic-Prefix.pch"; sourceTree = "<group>"; };
+		9AB1B8261744981B0029B6CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AB1B8271744981B0029B6CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AB1B82F1744981C0029B6CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9AB1B8301744981C0029B6CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AB1B8331744981C0029B6CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9AB1B83A1744983C0029B6CB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9AB1B83C174498410029B6CB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9AB1B83E174498480029B6CB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9AB1B8401744984D0029B6CB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9AB1B84317449AA10029B6CB /* ARCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCoordinate.h; sourceTree = "<group>"; };
+		9AB1B84417449AA10029B6CB /* ARCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCoordinate.m; sourceTree = "<group>"; };
+		9AB1B84517449AA10029B6CB /* ARGeoCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGeoCoordinate.h; sourceTree = "<group>"; };
+		9AB1B84617449AA10029B6CB /* ARGeoCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGeoCoordinate.m; sourceTree = "<group>"; };
+		9AB1B84717449AA10029B6CB /* ARKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARKit.h; sourceTree = "<group>"; };
+		9AB1B84817449AA10029B6CB /* ARKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARKit.m; sourceTree = "<group>"; };
+		9AB1B84917449AA10029B6CB /* ARLocationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARLocationDelegate.h; sourceTree = "<group>"; };
+		9AB1B84A17449AA10029B6CB /* ARViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewProtocol.h; sourceTree = "<group>"; };
+		9AB1B84B17449AA10029B6CB /* AugmentedRealityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AugmentedRealityController.h; sourceTree = "<group>"; };
+		9AB1B84C17449AA10029B6CB /* AugmentedRealityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AugmentedRealityController.m; sourceTree = "<group>"; };
+		9AB1B84D17449AA10029B6CB /* GEOLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEOLocations.h; sourceTree = "<group>"; };
+		9AB1B84E17449AA10029B6CB /* GEOLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEOLocations.m; sourceTree = "<group>"; };
+		9AB1B85417449AC40029B6CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9AB1B85817449B820029B6CB /* BgImgShutter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BgImgShutter.png; sourceTree = "<group>"; };
+		9AB1B85917449B820029B6CB /* BgImgShutter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BgImgShutter@2x.png"; sourceTree = "<group>"; };
+		9AB1B85A17449B820029B6CB /* BgImgShutterRotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BgImgShutterRotate.png; sourceTree = "<group>"; };
+		9AB1B85B17449B820029B6CB /* BgImgShutterRotate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BgImgShutterRotate@2x.png"; sourceTree = "<group>"; };
+		9AB1B85C17449B820029B6CB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9AB1B85D17449B820029B6CB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9AB1B86417449DF00029B6CB /* menuSkyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuSkyButton.png; sourceTree = "<group>"; };
+		9AB1B86517449DF00029B6CB /* menuSkyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuSkyButton@2x.png"; sourceTree = "<group>"; };
+		9AB1B86617449DF00029B6CB /* playios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playios.png; sourceTree = "<group>"; };
+		9AB1B86717449DF00029B6CB /* playios@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playios@2x.png"; sourceTree = "<group>"; };
+		9AB1B86817449DF00029B6CB /* playlistios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playlistios.png; sourceTree = "<group>"; };
+		9AB1B86917449DF00029B6CB /* playlistios@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playlistios@2x.png"; sourceTree = "<group>"; };
+		9AB1B86A17449DF00029B6CB /* settingsios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsios.png; sourceTree = "<group>"; };
+		9AB1B86B17449DF00029B6CB /* settingsios@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingsios@2x.png"; sourceTree = "<group>"; };
+		9AB1B86C17449DF00029B6CB /* songTargetios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = songTargetios.png; sourceTree = "<group>"; };
+		9AB1B86D17449DF00029B6CB /* songTargetios@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "songTargetios@2x.png"; sourceTree = "<group>"; };
+		9AB1B86E17449DF00029B6CB /* totheskyios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = totheskyios.png; sourceTree = "<group>"; };
+		9AB1B86F17449DF00029B6CB /* totheskyios@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "totheskyios@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AB1B8111744981B0029B6CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB1B85517449AC40029B6CB /* AVFoundation.framework in Frameworks */,
+				9AB1B8411744984D0029B6CB /* CoreLocation.framework in Frameworks */,
+				9AB1B83F174498480029B6CB /* MapKit.framework in Frameworks */,
+				9AB1B83D174498410029B6CB /* QuartzCore.framework in Frameworks */,
+				9AB1B83B1744983C0029B6CB /* CoreData.framework in Frameworks */,
+				9AB1B8181744981B0029B6CB /* UIKit.framework in Frameworks */,
+				9AB1B81A1744981B0029B6CB /* Foundation.framework in Frameworks */,
+				9AB1B81C1744981B0029B6CB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AB1B80B1744981B0029B6CB = {
+			isa = PBXGroup;
+			children = (
+				9AB1B81D1744981B0029B6CB /* AirPlayMusic */,
+				9AB1B8161744981B0029B6CB /* Frameworks */,
+				9AB1B8151744981B0029B6CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AB1B8151744981B0029B6CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AB1B8141744981B0029B6CB /* AirPlayMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AB1B8161744981B0029B6CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AB1B85417449AC40029B6CB /* AVFoundation.framework */,
+				9AB1B8401744984D0029B6CB /* CoreLocation.framework */,
+				9AB1B83E174498480029B6CB /* MapKit.framework */,
+				9AB1B83C174498410029B6CB /* QuartzCore.framework */,
+				9AB1B83A1744983C0029B6CB /* CoreData.framework */,
+				9AB1B8171744981B0029B6CB /* UIKit.framework */,
+				9AB1B8191744981B0029B6CB /* Foundation.framework */,
+				9AB1B81B1744981B0029B6CB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AB1B81D1744981B0029B6CB /* AirPlayMusic */ = {
+			isa = PBXGroup;
+			children = (
+				9AB1B85617449B820029B6CB /* Assets */,
+				9AB1B8261744981B0029B6CB /* AppDelegate.h */,
+				9AB1B8271744981B0029B6CB /* AppDelegate.m */,
+				9AB1B82F1744981C0029B6CB /* ViewController.h */,
+				9AB1B8301744981C0029B6CB /* ViewController.m */,
+				9AB1B8321744981C0029B6CB /* ViewController.xib */,
+				9A2440E71744BBE800D07268 /* FullScreenARViewController.h */,
+				9A2440E81744BBE800D07268 /* FullScreenARViewController.m */,
+				9A2440E91744BBE800D07268 /* FullScreenARViewController.xib */,
+				9AB1B81E1744981B0029B6CB /* Supporting Files */,
+			);
+			path = AirPlayMusic;
+			sourceTree = "<group>";
+		};
+		9AB1B81E1744981B0029B6CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AB1B84217449AA10029B6CB /* ARKit */,
+				9AB1B81F1744981B0029B6CB /* AirPlayMusic-Info.plist */,
+				9AB1B8201744981B0029B6CB /* InfoPlist.strings */,
+				9AB1B8231744981B0029B6CB /* main.m */,
+				9AB1B8251744981B0029B6CB /* AirPlayMusic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AB1B84217449AA10029B6CB /* ARKit */ = {
+			isa = PBXGroup;
+			children = (
+				9AB1B84317449AA10029B6CB /* ARCoordinate.h */,
+				9AB1B84417449AA10029B6CB /* ARCoordinate.m */,
+				9AB1B84517449AA10029B6CB /* ARGeoCoordinate.h */,
+				9AB1B84617449AA10029B6CB /* ARGeoCoordinate.m */,
+				9AB1B84717449AA10029B6CB /* ARKit.h */,
+				9AB1B84817449AA10029B6CB /* ARKit.m */,
+				9AB1B84917449AA10029B6CB /* ARLocationDelegate.h */,
+				9AB1B84A17449AA10029B6CB /* ARViewProtocol.h */,
+				9AB1B84B17449AA10029B6CB /* AugmentedRealityController.h */,
+				9AB1B84C17449AA10029B6CB /* AugmentedRealityController.m */,
+				9AB1B84D17449AA10029B6CB /* GEOLocations.h */,
+				9AB1B84E17449AA10029B6CB /* GEOLocations.m */,
+			);
+			path = ARKit;
+			sourceTree = "<group>";
+		};
+		9AB1B85617449B820029B6CB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9AB1B85717449B820029B6CB /* img */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9AB1B85717449B820029B6CB /* img */ = {
+			isa = PBXGroup;
+			children = (
+				9A2440EC1744C11000D07268 /* closeios.png */,
+				9A2440ED1744C11000D07268 /* closeios@2x.png */,
+				9AB1B86417449DF00029B6CB /* menuSkyButton.png */,
+				9AB1B86517449DF00029B6CB /* menuSkyButton@2x.png */,
+				9AB1B86617449DF00029B6CB /* playios.png */,
+				9AB1B86717449DF00029B6CB /* playios@2x.png */,
+				9AB1B86817449DF00029B6CB /* playlistios.png */,
+				9AB1B86917449DF00029B6CB /* playlistios@2x.png */,
+				9AB1B86A17449DF00029B6CB /* settingsios.png */,
+				9AB1B86B17449DF00029B6CB /* settingsios@2x.png */,
+				9AB1B86C17449DF00029B6CB /* songTargetios.png */,
+				9AB1B86D17449DF00029B6CB /* songTargetios@2x.png */,
+				9AB1B86E17449DF00029B6CB /* totheskyios.png */,
+				9AB1B86F17449DF00029B6CB /* totheskyios@2x.png */,
+				9AB1B85817449B820029B6CB /* BgImgShutter.png */,
+				9AB1B85917449B820029B6CB /* BgImgShutter@2x.png */,
+				9AB1B85A17449B820029B6CB /* BgImgShutterRotate.png */,
+				9AB1B85B17449B820029B6CB /* BgImgShutterRotate@2x.png */,
+				9AB1B85C17449B820029B6CB /* Default.png */,
+				9AB1B85D17449B820029B6CB /* Default@2x.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AB1B8131744981B0029B6CB /* AirPlayMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB1B8371744981C0029B6CB /* Build configuration list for PBXNativeTarget "AirPlayMusic" */;
+			buildPhases = (
+				9AB1B8101744981B0029B6CB /* Sources */,
+				9AB1B8111744981B0029B6CB /* Frameworks */,
+				9AB1B8121744981B0029B6CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPlayMusic;
+			productName = AirPlayMusic;
+			productReference = 9AB1B8141744981B0029B6CB /* AirPlayMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AB1B80C1744981B0029B6CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Toan.Quach;
+			};
+			buildConfigurationList = 9AB1B80F1744981B0029B6CB /* Build configuration list for PBXProject "AirPlayMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9AB1B80B1744981B0029B6CB;
+			productRefGroup = 9AB1B8151744981B0029B6CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AB1B8131744981B0029B6CB /* AirPlayMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AB1B8121744981B0029B6CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB1B8221744981B0029B6CB /* InfoPlist.strings in Resources */,
+				9AB1B8341744981C0029B6CB /* ViewController.xib in Resources */,
+				9AB1B85E17449B820029B6CB /* BgImgShutter.png in Resources */,
+				9AB1B85F17449B820029B6CB /* BgImgShutter@2x.png in Resources */,
+				9AB1B86017449B820029B6CB /* BgImgShutterRotate.png in Resources */,
+				9AB1B86117449B820029B6CB /* BgImgShutterRotate@2x.png in Resources */,
+				9AB1B86217449B820029B6CB /* Default.png in Resources */,
+				9AB1B86317449B820029B6CB /* Default@2x.png in Resources */,
+				9AB1B87017449DF00029B6CB /* menuSkyButton.png in Resources */,
+				9AB1B87117449DF00029B6CB /* menuSkyButton@2x.png in Resources */,
+				9AB1B87217449DF00029B6CB /* playios.png in Resources */,
+				9AB1B87317449DF00029B6CB /* playios@2x.png in Resources */,
+				9AB1B87417449DF00029B6CB /* playlistios.png in Resources */,
+				9AB1B87517449DF00029B6CB /* playlistios@2x.png in Resources */,
+				9AB1B87617449DF00029B6CB /* settingsios.png in Resources */,
+				9AB1B87717449DF00029B6CB /* settingsios@2x.png in Resources */,
+				9AB1B87817449DF00029B6CB /* songTargetios.png in Resources */,
+				9AB1B87917449DF00029B6CB /* songTargetios@2x.png in Resources */,
+				9AB1B87A17449DF00029B6CB /* totheskyios.png in Resources */,
+				9AB1B87B17449DF00029B6CB /* totheskyios@2x.png in Resources */,
+				9A2440EB1744BBE800D07268 /* FullScreenARViewController.xib in Resources */,
+				9A2440EE1744C11000D07268 /* closeios.png in Resources */,
+				9A2440EF1744C11000D07268 /* closeios@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AB1B8101744981B0029B6CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB1B8241744981B0029B6CB /* main.m in Sources */,
+				9AB1B8281744981B0029B6CB /* AppDelegate.m in Sources */,
+				9AB1B8311744981C0029B6CB /* ViewController.m in Sources */,
+				9AB1B84F17449AA10029B6CB /* ARCoordinate.m in Sources */,
+				9AB1B85017449AA10029B6CB /* ARGeoCoordinate.m in Sources */,
+				9AB1B85117449AA10029B6CB /* ARKit.m in Sources */,
+				9AB1B85217449AA10029B6CB /* AugmentedRealityController.m in Sources */,
+				9AB1B85317449AA10029B6CB /* GEOLocations.m in Sources */,
+				9A2440EA1744BBE800D07268 /* FullScreenARViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AB1B8201744981B0029B6CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AB1B8211744981B0029B6CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9AB1B8321744981C0029B6CB /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AB1B8331744981C0029B6CB /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AB1B8351744981C0029B6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AB1B8361744981C0029B6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AB1B8381744981C0029B6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hai Nguyen (7XV4A7MU2Z)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirPlayMusic/AirPlayMusic-Prefix.pch";
+				INFOPLIST_FILE = "AirPlayMusic/AirPlayMusic-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CA05062C-7314-4677-8833-01882D53884C";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9AB1B8391744981C0029B6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirPlayMusic/AirPlayMusic-Prefix.pch";
+				INFOPLIST_FILE = "AirPlayMusic/AirPlayMusic-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AB1B80F1744981B0029B6CB /* Build configuration list for PBXProject "AirPlayMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB1B8351744981C0029B6CB /* Debug */,
+				9AB1B8361744981C0029B6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AB1B8371744981C0029B6CB /* Build configuration list for PBXNativeTarget "AirPlayMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB1B8381744981C0029B6CB /* Debug */,
+				9AB1B8391744981C0029B6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AB1B80C1744981B0029B6CB /* Project object */;
+}
