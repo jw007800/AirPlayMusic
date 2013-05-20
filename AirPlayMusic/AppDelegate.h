@@ -8,12 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@class ViewController;
+@class MainMenuView;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, UINavigationControllerDelegate>
+{
+    MainMenuView *mainMenuView;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) UINavigationController *navigationController;
+
+// Method
+
+- (void)setupView;
+
+- (void)showMainMenu;
 
 @end

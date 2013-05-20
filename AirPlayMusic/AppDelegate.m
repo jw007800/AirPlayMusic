@@ -8,17 +8,39 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "HomeViewController.h"
+
+// view
+#import "MainMenuView.h"
 
 @implementation AppDelegate
 
+@synthesize navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    //
+    //      Override point for customization after application launch.
+    //
+    //
+    //      Create Home View Controller
+    //
+    HomeViewController *homeController = [[HomeViewController alloc] init];
+    //
+    //      Create Navigation Controller
+    //
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:homeController];
+    //
+    //      Set Navigation for RootViewController
+    //
+    self.window.rootViewController = self.navigationController;
+    self.navigationController.navigationBarHidden = YES;
+    self.navigationController.navigationBar.hidden = YES;
+    //
+    //      SetupView
+    //
+    [self setupView];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -48,6 +70,21 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - SetupView
+
+- (void)setupView
+{
+    mainMenuView = [[[NSBundle mainBundle] loadNibNamed:@"MainMenuView" owner:self options:nil] objectAtIndex:0];
+    mainMenuView.frame = CGRectMake(0, 0, 148, 48);
+    [self.navigationController.view addSubview:mainMenuView];
+}
+
+- (void)showMainMenu
+{
+    mainMenuView.frame = CGRectMake(0, 0, 148, 48);
+    mainMenuView.hidden = NO;
 }
 
 @end
