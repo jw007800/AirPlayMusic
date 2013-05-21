@@ -266,4 +266,5 @@
 {
     NSLog(@"%@", coordinate);
 }
+
 @end
